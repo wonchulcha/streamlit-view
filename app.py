@@ -4,8 +4,9 @@ import numpy as np
 
 
 
-x = st.slider('x')
-st.write(x, 'squared is', x * x)
+st.text_input('이름을 입력하세요', key='name')
+
+st.session_state.name
 
 
 
