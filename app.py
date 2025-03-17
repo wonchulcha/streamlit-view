@@ -9,7 +9,7 @@ df = pd.DataFrame(
   columns=['a', 'b', 'c']
 )
 
-st.write(df)
+st.line_chart(df)
 
 
 
