@@ -5,7 +5,7 @@ import numpy as np
 
 
 df = pd.DataFrame(
-  np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
+  np.random.randn(1000, 2) / [50, 50] + [37.5436, 126.6758],
   columns=['lat', 'lon']
 )
 
