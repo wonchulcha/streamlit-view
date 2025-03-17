@@ -3,10 +3,16 @@ import pandas as pd
 import numpy as np
 
 
+if st.checkbox('Show/Hide'):
+    chart_data = pd.DataFrame(
+        np.random.randn(20, 3),
+        columns=['a', 'b', 'c']
+    )
 
-st.text_input('이름을 입력하세요', key='name')
+st.line_chart(chart_data)
 
-st.session_state.name
+
+
 
 
 
