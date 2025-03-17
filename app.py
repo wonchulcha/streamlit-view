@@ -9,7 +9,7 @@ if st.checkbox('Show/Hide'):
         columns=['a', 'b', 'c']
     )
 
-st.line_chart(chart_data)
+chart_data
 
 
 
