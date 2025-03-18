@@ -13,7 +13,7 @@ st.pills("Tags", ["Sports", "Politics"])
 st.radio("Pick one", ["cats", "dogs"])
 st.segmented_control("Filter", ["Open", "Closed"])
 st.toggle("Enable")
-st.selectbox("Pick one", ["cats", "dogs"])
+
 
 
 # # Use widgets' returned values in variables:
